@@ -3,7 +3,7 @@ Parameters:
   BucketNameParameter:
     Type: String
     Description: S3 Bucket Name
-    Default: us-east-1-324320755747-jake-bucket-lambda
+    Default: jake-bucket-lambda-new
 Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
